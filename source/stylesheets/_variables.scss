@@ -70,13 +70,12 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 // FONTS
 ////////////////////
 %default-font {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'GibsonRegular';
   font-size: 14px;
 }
 
 %header-font {
-  @extend %default-font;
-  font-weight: bold;
+  font-family: 'GibsonSemiBold';
 }
 
 %code-font {
